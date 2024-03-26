@@ -1,0 +1,7 @@
+venv
+build
+dist
+.pytest_cache
+src/edenredpt.egg-info
+src/edenredpt/__pycache__
+tests/__pycache__
