@@ -8,6 +8,8 @@ setup(
     version='0.1.0',
     description='Unofficial library for myEdenred (PT)',
     author='João Miranda',
+    author_email='joao.duarte.miranda@gmail.com',
+    url='https://github.com/joaoduartemiranda/edenredpt',
     install_requires=[
         "requests>=2.31.0"
     ],
