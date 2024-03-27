@@ -1,6 +1,6 @@
 from setuptools import setup
 
-with open("README.md", "r", "utf-8") as f:
+with open("README.md", "r") as f:
     readme = f.read()
 
 setup(
@@ -8,7 +8,7 @@ setup(
     packages=["edenredpt"],
     package_dir={"": "src"},
     include_package_data=True,
-    version='0.1.1',
+    version='0.1.2',
     description='Unofficial library for myEdenred (PT)',
     long_description=readme,
     long_description_content_type="text/markdown",
