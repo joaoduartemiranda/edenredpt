@@ -5,7 +5,7 @@ setup(
     packages=["edenredpt"],
     package_dir={"": "src"},
     include_package_data=True,
-    version='0.1.0',
+    version='0.1.1',
     description='Unofficial library for myEdenred (PT)',
     author='João Miranda',
     author_email='joao.duarte.miranda@gmail.com',
