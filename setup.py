@@ -1,5 +1,8 @@
 from setuptools import setup
 
+with open("README.md", "r", "utf-8") as f:
+    readme = f.read()
+
 setup(
     name='edenredpt',
     packages=["edenredpt"],
@@ -7,6 +10,8 @@ setup(
     include_package_data=True,
     version='0.1.1',
     description='Unofficial library for myEdenred (PT)',
+    long_description=readme,
+    long_description_content_type="text/markdown",
     author='João Miranda',
     author_email='joao.duarte.miranda@gmail.com',
     url='https://github.com/joaoduartemiranda/edenredpt',
