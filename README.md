@@ -40,7 +40,7 @@ edenred = Edenred(username='user@email.com', password='mypassword')
 pprint.pprint(edenred.get_transactions())
 ```
 Output:
-```json
+```javascript
 [{'amount': 182.4,
   'balance': 204.44,
   'category': {'description': 'Crédito', 'id': 5},
